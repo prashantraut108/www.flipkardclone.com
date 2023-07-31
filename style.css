@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+}
+
+header nav {
+    background-color: rgb(54, 108, 234);
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    height: 25px;
+    margin-left: 10rem;
+}
+
+header nav input{
+    padding: .2rem 20rem 0.2rem 0;
+    margin-left: 1rem;
+    border:none;
+}
+
+header button {
+    padding: 0.2rem 2.2rem 0.2rem 2.2rem;
+    margin-left: 2rem;
+    border: none;
+    color: rgb(0, 149, 255);
+    font-weight: 500;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 3rem;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #dfdede;
+}
+
+.navbarpart-2 {
+    box-shadow: 1px 1px 3px rgb(186, 184, 184);
+}
+
+.navbarpart-2 a img{
+    margin-top: 1rem;
+    height: 5rem;
+    transition: transform 0.3s;
+}
+
+.navbarpart-2 a img:hover{
+    transform: scale(1.1);
+}
+.navbarpart-2 a{
+    text-decoration: none;
+    color: rgb(93, 93, 93);
+}
+.navbarpart-2 h6{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.navbarpart-2 a:hover{
+    color: rgb(8, 8, 121);
+}
+
+.navbar-contain h6 {
+    font-size: .8rem;
+}
+
+.carousel {
+    margin-top: 2rem;
+}
+
+.carousel-item img {
+    height: 18rem;
+    width: 100%;
+}
+
+.products{
+    box-shadow: 1px 1px 5px rgb(186, 184, 184);
+}
+
+.products img {
+    margin-top: 1rem;
+    height: 12rem;
+    transition: transform 0.3s;
+}
+.products img:hover{
+    transform: scale(1.1);
+}
+
+.products p {
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.products a {
+    color: green;
+}
+
+.products-bg{
+   background: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(245, 245, 242) 0%, rgb(193, 234, 193) 50%, rgb(12, 254, 238) 130%);
+   height: 16rem;
+   font-weight: 100;
+}
+
+.fashion-bg{
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(245, 245, 242) 0%, rgb(234, 234, 193) 50%, rgb(254, 189, 12) 130%);
+}
+
+.tv-bg{
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(245, 245, 242) 0%, rgb(193, 210, 234) 50%, rgb(48, 12, 254) 130%);
+}
+
+.products-bg p{
+    font-weight: 400;
+    font-size:2rem;
+}
+
+.introduction{
+    box-shadow: 1px 1px 5px rgb(186, 184, 184);
+}
+
+.introduction h6{
+    font-weight: 700;
+    color: rgb(94, 93, 93);
+}
+.introduction p{
+    color: rgb(121, 121, 121);
+    font-size: 0.8rem;
+}
+
+.footer{
+    background: rgb(19, 19, 51);
+    padding-top: 3rem;
+}
+.footer h6{
+    color: goldenrod;
+    font-weight: 700;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.footer p{
+    color: #fff;
+}
+
+.footer i{
+    color: goldenrod;
+}
+
+
+
+
+
+
+
+/* Media quary */
+
+@media(max-width:600px) {
+    html {
+        font-size: 60%;
+    }
+
+    nav img {
+        height: 10px;
+        margin-left: 2rem;
+    }
+
+    header nav {
+        flex-wrap: wrap;
+        height: 5.5rem;
+        width: 100%;
+    }
+
+    header nav input {
+        padding: .2rem 2rem 0.2rem 0;
+    }
+
+    header nav a {
+        padding-right: 1rem;
+    }
+
+    .navbarpart-2 a img {
+        margin-top: 1rem;
+        height: 2rem;
+        margin-right: 0rem;
+    }
+
+    .navbar-contain h6 {
+        font-size: .4rem;
+    }
+
+    .footer img{
+        height: 12px;
+    }
+
+    .carousel-item img {
+        height: 10rem;
+        width: 100%;
+    }
+}
